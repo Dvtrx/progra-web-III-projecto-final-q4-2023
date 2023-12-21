@@ -1,0 +1,37 @@
+CREATE DATABASE notasdb_api;
+USE notasdb_api;
+
+CREATE TABLE USUARIO(
+ID_Usuario INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+Nombre NVARCHAR(50) NOT NULL,
+Apellidos NVARCHAR(100) NOT NULL,
+Email NVARCHAR(250) NOT NULL,
+Nombre_Usuario NVARCHAR(45) NOT NULL,
+Contraseña NVARCHAR (65535) NOT NULL
+);
+ 
+CREATE TABLE NOTAS(
+ID_NOTAS INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+ESTADO BOOL NOT NULL,
+TITULO NVARCHAR(250) NOT NULL,
+CONTENIDO NVARCHAR(65535) NOT NULL,
+ID_USUARIO INT NOT NULL,
+CONSTRAINT fk_Usuario FOREIGN KEY (ID_USUARIO) REFERENCES USUARIO (ID_USUARIO)
+);
+
+/*ALTER TABLE NOTAS MODIFY ESTADO BOOL;
+
+SELECT * FROM USUARIO
+
+SELECT * FROM Notas
+
+SELECT * FROM Notas WHERE ESTADO = 0 AND ID_USUARIO =5;
+
+INSERT INTO USUARIO (Nombre, Apellidos, Email, Nombre_Usuario, Contraseña)
+VALUES
+	('John Doe', 'Jones', 'johndoe@example.com', 'johndoe', 'password123'),
+    ('Jane Doe', 'Smith', 'janedoe@example.com', 'janedoe', 'password123'),
+    ('Bob Johnson', 'Smith', 'bobjohnson@example.com', 'bobjohnson', 'password123');
+
+DELETE FROM USUARIO WHERE ID_Usuario = 1
+DELETE FROM notas WHERE ID_NOTAS = 3*/
