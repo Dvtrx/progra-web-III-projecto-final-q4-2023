@@ -1,0 +1,25 @@
+.register {
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    /*backdrop-filter: blur(6px);*/
+    margin: 5em;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px solid #e3b78b;
+    border-radius: 16px;
+    padding: 1em;
+    background-color:#fddebc ;
+}
+
+.register h1{
+    color: black;
+    font-weight: 800;
+}
+
+.register button{
+    margin-bottom: 8px;
+    background-color: #4c9e87;
+    border-radius: 3em;
+    transition: .5s;
+}
