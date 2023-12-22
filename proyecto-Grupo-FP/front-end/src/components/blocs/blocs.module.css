@@ -1,0 +1,34 @@
+.Blocs{
+     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+
+}
+.centrarBloc {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+
+}
+.formartoText {
+    top: 20px;
+    width: 60%;
+    margin: 0%;
+    left: 2%;
+}
+.bottonagregar {
+    top: 50px;
+    color: #050a24 !important;
+}
+.noteTitle {
+    margin-left: 130px;
+}
+#card-home{
+    background-color: blueviolet;
+}
