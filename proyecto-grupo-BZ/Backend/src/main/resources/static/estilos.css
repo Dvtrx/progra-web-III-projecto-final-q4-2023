@@ -1,0 +1,48 @@
+
+*{margin: 0px;
+    padding : 0px;
+
+}
+
+
+ul{ list-style-type: square ;
+    
+
+}
+
+
+body{  
+    background: #757ce4f1 ;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0px auto;
+
+}
+#todo{
+    width: 90%;
+    margin:  auto;
+}
+#titu{
+    list-style: none;
+    border: 3px dashed white;
+    width: fit-content;
+}
+
+.inicio {
+   padding-top: 40px;
+    height: 300px;
+    width: 30%;
+   float:left;
+   
+   
+
+}
+
+
+.introduccion{ 
+    float: left;
+    width: 70%;
+    height: 300px;
+
+
+}
+

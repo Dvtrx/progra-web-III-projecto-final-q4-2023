@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href = "/css/estilos.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripcion de programa</title>
+</head>
+<body>
+    <div id="todo">
+    <article class="inicio">
+    <h1 >Integrantes 
+    </h1>
+    <br>
+       <ul>
+        <li>Roberto Castrillo Cortes </li>
+        <br>
+        <li>Alejandro Cespedes García</li><br>
+        <li> Bryan Garita Rivera</li><br>
+        <li>David Oreamuno Salazar</li><br>
+   </ul> 
+    </article>
+    <Br>
+    <Br>
+        <article class = "introduccion">
+        <h1>Introduccion</h1><br>
+    <p>Esto es un programa que trata de una aplicación de
+    un bloc de notas, que se necesita un registro para cada usuario
+     y todos pueden subir y ver las notas de otros usuarios, pero solo el usuario puede editar y borrar las notas creadas por este mismo.
+     Todo esto conectado a una base de datos, para guardar toda la información antes mencionada.    </p></article>
+     <Br>
+        
+            <h1>Informacion sobre el programa</h1><br>
+    <p>
+       
+    <ol><br>
+        <li id="titu">DatabaseServiceN.java</li>
+        <Br>
+       <p>En este apartado encontramos lo que sería la creación de los métodos, el primero que se encontraría sería el 
+        “getAllnotas” para obtener todas las notas de otras personas y las propias y así poder visualizarlas 
+        todas, también se encontrara elmétodo para actualizar “updateNotas” las notas de la cuenta que está 
+        ingresada y no de otras personas, al igual  que con  el método para subir una nota el cual es “insertrNotas_C”, otro que se va 
+        a encontrar es el de inicio de sesión el cual tiene el nombre de “insertCuenta” el cual busca en la base de 
+        datos la cuenta ya registrada y pasa a lo que sería las notas, después se encontrara el método de registro el cual se llama 
+        “insertRegistro” el cual es para crear la cuenta y la cual pasa por un cifrado en la contraseña y 
+        se sube a la base de datos, ya al final de este apartado se encuentra el método “deleteNotas_C” el cual es para borrar 
+        las notas que elija la persona.</p> <Br><Br>
+        <li id="titu">Inicio_Sesión.java</li><Br>
+            <p>En este apartado se encuentra lo que es la declaración de las variables para lo que serían las notas como un String que 
+        tiene nombre de “Nombre_Usuario”, la otra variable sería otro String el cual tiene como nombre “ConstraseNa”.</p> <Br><Br>
+        <li id="titu"> Notas_C.java</li><Br>
+            <p>En este apartado se encuentra lo que es la declaración de las variables de Inicio de sesión como un String que 
+        tiene nombre de     “Numero_De_nota”, la otra variable sería otro String el cual tiene como nombre “título”, la otra variable 
+        sería otro String el cual tiene como nombre “Descripcion”, la otra variable sería otro String el cual tiene como nombre 
+        “Fecha_de_vencimiento”, la otra variable sería otro String el cual tiene como nombre “Prioridad”, la otra variable sería otro String el cual
+         tiene como nombre “Nombre_Usuario”.</p> <Br><Br>
+         <li id="titu">RestControllerProyecto.java</li><Br>
+            <p>En el último apartado vamos a encontrar lo que serían los Apis de nuestro código, con lo cual empezamos con el primer api el cual es nuestro
+          RequestMapping el cual responde a /Inicio, el segundo api sería un Get el cual responde a /Listas, el tercer api sería un Put el cual responde
+           a /Actualizar, el cuarto api sería un Post el cual responde a /subir, el quinto api sería un Post el cual responde a /cuenta, el sexto api sería 
+           un Delete el cual responde a /borrar y el último el cual sería un post el cual responde a /Registro.</p> <Br><Br>
+        <li id="titu">WebController.java</li><Br>
+            <p>En este lo que vamos a encontrar es,  @controller y un RequestMapping que responde a /descripcion</p> <Br><Br>
+    </ol>
+
+
+    </p>
+    
+</div>
+</body>
+</html>
