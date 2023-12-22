@@ -1,0 +1,36 @@
+.Contac {}
+
+.divContac {
+    width: 600px;
+    position: absolute;
+    left: 15%;
+    bottom: 18%;
+    background-color: black;
+    border-radius: 3%;
+    opacity: 80%;
+
+}
+
+.parrafo {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.redes {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+
+}
+
+.titulo {
+    opacity: 80%;
+    color: white;
+    right: 3%;
+    position: relative;
+    font-size: 45px;
+
+}

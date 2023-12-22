@@ -1,0 +1,15 @@
+.fondoRegistro {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 18%;
+    right: 320px;
+    color: black;
+    bottom: 60px;
+    padding: 0%;
+
+}
+
+.botonInicio {
+    background-color: #050a24 !important;
+}

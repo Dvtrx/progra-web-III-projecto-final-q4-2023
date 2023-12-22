@@ -1,0 +1,38 @@
+.toolbar {
+    background-color: black;
+}
+
+.nav {
+    position: absolute;
+    width: 100vmax;
+}
+
+.logoNotas {
+    width: 100px;
+
+}
+
+.title {
+    position: relative;
+    right: 600px;
+    margin: 10px;
+}
+
+.button {
+    position: absolute;
+    left: 1450px;
+
+
+}
+
+.info {
+    position: absolute;
+    left: 88%;
+    margin: 0%;
+}
+
+.btnInfo {
+    opacity: 80%;
+    color: white !important;
+
+}

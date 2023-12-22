@@ -1,0 +1,26 @@
+.Aboutus {}
+
+.divAbout {
+    width: 600px;
+    position: absolute;
+    right: 25%;
+    bottom: 18%;
+    background-color: black;
+    border-radius: 3%;
+    opacity: 80%;
+
+
+}
+
+.parrafo {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.titulo {
+    opacity: 80%;
+    color: white;
+    left: 33%;
+}

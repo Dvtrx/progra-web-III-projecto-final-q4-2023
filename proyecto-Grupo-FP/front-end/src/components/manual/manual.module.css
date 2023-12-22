@@ -1,0 +1,66 @@
+.Manual {
+    min-height: 100vh;
+    height: 1300px;
+    color: white;
+    padding-left: 70px;
+    margin: 7%;
+    margin-right: 215px;
+    margin-left: 215px;
+    margin-top: -50;
+    text-align: left;
+}
+
+.letras {
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+    max-height: none;
+    background-color: transparent;
+
+
+}
+
+h1 {
+    font-family: 'Rethink Sans', sans-serif;
+    text-align: left;
+    margin: 2rem;
+    right: 2%;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Rethink Sans', sans-serif;
+    margin: 1rem;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: 'Rethink Sans', sans-serif;
+    margin: 1rem;
+    text-align: left;
+
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    margin: 0.7rem;
+    text-align: left;
+
+}
+
+.divManual {
+    width: 900px;
+
+    position: absolute;
+    right: 25%;
+    background-color: black;
+    border-radius: 3%;
+    opacity: 80%;
+}
